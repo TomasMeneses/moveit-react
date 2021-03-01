@@ -20,10 +20,12 @@
     height: 4px;
     border-radius: 4px;
     background: var(--green);
+    transition: width 1s;
 }
 
 span.currentExperience {
     position: absolute;
     top: 12px;
+    transition: 1s;
     transform: translateX(-50%); /* para que a ancora seja o centro e não a esquerda do elemento. */
 }
